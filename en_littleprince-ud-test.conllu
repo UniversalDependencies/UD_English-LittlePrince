@@ -1269,7 +1269,7 @@
 13	drawing	draw	NOUN	NN	Number=Sing	9	nsubj	_	_
 14	in	in	ADP	IN	_	16	case	_	_
 15	this	this	DET	DT	Number=Sing|PronType=Dem	16	det	_	_
-16	book	book	NOUN	NN	Number=Sing	13	obl	_	_
+16	book	book	NOUN	NN	Number=Sing	13	nmod	_	_
 17	as	as	ADV	RB	_	18	advmod	_	_
 18	magnificent	magnificent	ADJ	JJ	Degree=Pos	13	amod	_	_
 19	and	and	CCONJ	CC	_	20	cc	_	_
@@ -6093,7 +6093,7 @@
 25	times	time	NOUN	NNS	Number=Plur	17	obl	_	_
 26	in	in	ADP	IN	_	28	case	_	_
 27	one	one	NUM	CD	NumType=Card	28	nummod	_	_
-28	day	day	NOUN	NN	Number=Sing	25	obl	_	_
+28	day	day	NOUN	NN	Number=Sing	25	nmod	_	_
 29	,	,	PUNCT	,	_	31	punct	_	_
 30	but	but	CCONJ	CC	_	31	cc	_	_
 31	seventy	seventy	NUM	CD	NumType=Card	25	conj	_	_
@@ -6194,7 +6194,7 @@
 10	one	one	NUM	CD	NumType=Card	11	nummod	_	_
 11	flower	flower	NOUN	NN	Number=Sing	8	obl	_	_
 12	to	to	ADP	IN	_	13	case	_	_
-13	another	another	DET	DT	_	11	obl	_	_
+13	another	another	DET	DT	_	11	nmod	_	_
 14	like	like	ADP	IN	_	16	case	_	_
 15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
 16	butterfly	butterfly	NOUN	NN	Number=Sing	8	obl	_	_
