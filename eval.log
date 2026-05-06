@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_English-LittlePrince:
-commit 6c0f7c5e68c1e9ca362eddc64339265626089b97
+commit a0c5619f72abfc8f82be71999cced98f808a244f
+Merge: 2b85e70 a193637
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 11 14:53:13 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'en_littleprince'
 Language code (from CoNLL-U file name) = 'en'
@@ -25,18 +25,18 @@ Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang en --max-err=10 UD_English-LittlePrince/en_littleprince-ud-test.conllu
-[Line 11 Sent lpp_1943.201]: [L3 Warning verbform-fin-without-mood] Finite verb 'shall' lacks the 'Mood' feature
-[Line 26 Sent lpp_1943.202]: [L3 Warning verbform-fin-without-mood] Finite verb 'will' lacks the 'Mood' feature
-[Line 119 Sent lpp_1943.209]: [L3 Warning pron-det-without-prontype] The word 'each' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 123 Sent lpp_1943.209]: [L3 Warning verbform-fin-without-mood] Finite verb 'would' lacks the 'Mood' feature
-[Line 152 Sent lpp_1943.210]: [L3 Warning verbform-fin-without-mood] Finite verb 'would' lacks the 'Mood' feature
-[Line 159 Sent lpp_1943.210]: [L3 Warning verbform-fin-without-mood] Finite verb 'might' lacks the 'Mood' feature
-[Line 290 Sent lpp_1943.217]: [L3 Warning verbform-fin-without-mood] Finite verb 'should' lacks the 'Mood' feature
-[Line 363 Sent lpp_1943.219]: [L3 Warning verbform-fin-without-mood] Finite verb 'would' lacks the 'Mood' feature
-[Line 394 Sent lpp_1943.221]: [L3 Warning verbform-fin-without-mood] Finite verb 'would' lacks the 'Mood' feature
-[Line 526 Sent lpp_1943.227]: [L3 Warning pron-det-without-prontype] The word 'any' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-Warnings: 219
+[Line 11 Sent lpp_1943.201]: [L3 WARNING verbform-fin-without-mood] Finite verb 'shall' lacks the 'Mood' feature
+[Line 26 Sent lpp_1943.202]: [L3 WARNING verbform-fin-without-mood] Finite verb 'will' lacks the 'Mood' feature
+[Line 119 Sent lpp_1943.209]: [L3 WARNING pron-det-without-prontype] The word 'each' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 123 Sent lpp_1943.209]: [L3 WARNING verbform-fin-without-mood] Finite verb 'would' lacks the 'Mood' feature
+[Line 152 Sent lpp_1943.210]: [L3 WARNING verbform-fin-without-mood] Finite verb 'would' lacks the 'Mood' feature
+[Line 159 Sent lpp_1943.210]: [L3 WARNING verbform-fin-without-mood] Finite verb 'might' lacks the 'Mood' feature
+[Line 290 Sent lpp_1943.217]: [L3 WARNING verbform-fin-without-mood] Finite verb 'should' lacks the 'Mood' feature
+[Line 363 Sent lpp_1943.219]: [L3 WARNING verbform-fin-without-mood] Finite verb 'would' lacks the 'Mood' feature
+[Line 394 Sent lpp_1943.221]: [L3 WARNING verbform-fin-without-mood] Finite verb 'would' lacks the 'Mood' feature
+[Line 526 Sent lpp_1943.227]: [L3 WARNING pron-det-without-prontype] The word 'any' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+Warnings: 216
 *** PASSED ***
 Validity: 1
 (weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
